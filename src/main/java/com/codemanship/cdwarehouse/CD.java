@@ -3,7 +3,7 @@ package com.codemanship.cdwarehouse;
 public class CD {
     private int stock;
 
-    public CD(int stock) {
+    public CD(String artist, String title, int stock) {
         this.stock = stock;
     }
 
